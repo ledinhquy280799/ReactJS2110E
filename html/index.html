@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- paragraph, heading (block), format -->
+    <p>This is a paragraph &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a</p>
+
+    <br><br><br>
+
+    <hr>
+
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>....</h3>
+    <h6>h6</h6>
+    <!-- format(inline) -->
+    <b>This is b tag</b> <!-- bold -->
+    <strong>This is strong tag</strong>
+    <br>
+    <i>italic</i>
+    <em>emphasize</em>
+    <small>Thẻ small make this text small</small>
+    <mark>Thẻ small make this text is marked</mark>
+    <del>Thẻ small make this take is deleted</del>
+
+
+    <!-- display: block, inline -->
+    <div>Text</div>
+    <span>Span</span> <span>Span</span> <span>Span</span>
+
+    <!-- images (src: source) alt(alternative) -->
+    <!-- relative path -->
+    <img src="./bg.jpg" alt="">
+
+    <a href="/html/pages/about_page.html">About</a>
+    <a href="/html/pages/about_page.html">Contact</a>
+    <!-- bookmarks -->
+    <a id="goh1" href="#h1">Go to h1</a>
+
+    <!-- Show list data -->
+    <!-- list -->
+    <ol type="a">
+        <li>Hoc tap tot, lao dong tot</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>Khiem ton, that tha, dung cam</li>
+    </ol>
+    <ul style="list-style-type: circle; color: red;">
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+
+    <!-- table -->
+    <table>
+        <legend>List students</legend>
+        <thead>
+            <tr>
+                <th rowspan="2">Id</th>
+                <th colspan="2">Information</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Khanh</td>
+                <td rowspan="2">ReactJS</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Van</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
