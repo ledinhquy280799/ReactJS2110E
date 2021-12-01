@@ -5,22 +5,11 @@
     font-size: 30px;
 } */
 
-/* #title {
-    color: red;
-} */
-
-/* .title {
-    color: blue;
-}
-
-.bg-dark {
-    background-color: black;
-    color: white;
-} */
 
 /* article h3 {
     color: red;
 } */
+
 
 /* article .title {
     color: red;
@@ -28,51 +17,78 @@
 
 p {
     color: red;
-} */
+}
+ */
+
 
 /* => */
 
-/* article .title, p {
+
+/* article .title,
+p {
     color: red;
 } */
 
+
 /* article>.title {
-    color: blue;
+    color: blue
+} */
+
+
+/* 
+#title {
+    color: red;
+} */
+
+
+/* 
+.title {
+    color: blue
 }
 
-.title+p {
-    border: 1px solid black;
-}
+.bg-dark {
+    background-color: black;
+    color: white
+} */
 
-.title~p {
+
+/* .title+p {
     border: 1px solid black;
 } */
+
+
+/* .title~p {
+    border: 1px solid black;
+} */
+
 
 /* [title*="Test"] {
-    color: pink;
-}
-
-[title^="Test"] {
-    color: pink;
+    color: pink
 } */
 
-h3.title#id[title*="test"] {
+
+/* [title^="Test"] {
+    color: pink
+} */
+
+h3.title2#id[title*="test"] {
     font-size: 40px;
 }
 
-.title[title*="test"] {
-    background-color: gray;
-    font-size: 50px;
+h3.title#id[title*="test"] {
+    background-color: grey;
+    font-size: 100px
 }
+
 
 /* pseudo selector */
 
-.gotogoogle:activate {
-    color: yellow;
+.gotogoogle:visited {
+    color: #FF0
 }
 
-.gotogoogle:visited {
-    color: green;
+.gotogoogle:active {
+    color: yellow
 }
 
 .gotogoogle:link {
@@ -87,7 +103,8 @@ input:focus {
     width: 500px;
 }
 
-table, tr {
+table,
+tr {
     width: 100%;
     border: 1px solid black;
 }
@@ -105,20 +122,24 @@ tr td:first-of-type {
     color: red;
 }
 
-tr td:last-child {
-    text-align: center;
-}
 
-/* tr td:nth-child(2) {
+/* tr td:last-child {
     text-align: center;
 } */
 
-tr td:nth-last-child(2) {
+
+/* 
+tr td:nth-child(2) {
     text-align: center;
-}
+} */
+
+
+/* tr td:nth-last-child(2) {
+    text-align: center;
+} */
 
 p::first-line {
-    color: red;
+    color: red
 }
 
 p::first-letter {
